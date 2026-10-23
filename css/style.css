@@ -1,0 +1,79 @@
+* {
+	margin: 0 ;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.parallax {
+	height: 100vh;
+	background-blend-mode: color;
+	background-color: rgba(0, 0, 0, 0.5);
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	background-attachment: fixed;
+}
+
+.img1{
+	background: url("../assets/penhasco.webp") center center/cover;
+	background-attachment: fixed;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.img2{
+	background: url("../assets/praias.webp") center center/cover;
+	background-attachment: fixed;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.img3{
+	background: url("../assets/montanhas.webp") center center/cover;
+	background-attachment: fixed;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.img4{
+	background: url("../assets/Florestas.webp") center center/cover;
+	background-attachment: fixed;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.titulo {
+	color: #ffffff;
+	font-family: Times New Roman, sans-serif;
+	letter-spacing: 2px;
+	font-weight: normal;
+	font-size: 40px;
+	padding: 20px;
+	border: 1px #ffffff solid;
+}
+
+.icon {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	color: white;
+	font-size: 80px;
+	position: fixed;
+
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 55px;
+	height: 55px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 8px;
+}
+
+p {
+	margin-top: 30px;
+	margin-bottom: 20px;
+	margin-left: 160px;
+	margin-right: 160px;
+	font-family: Times New Roman, sans-serif;
+	line-height: 20px;
+}
+
+p > span{
+	color: brown;
+}
